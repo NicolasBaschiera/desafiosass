@@ -1,0 +1,15 @@
+header {
+  color: red;
+  width: 300px;
+  box-shadow: 1px black; }
+  header h1 {
+    color: yellow;
+    font-size: 1rem; }
+  header nav {
+    width: 150px;
+    background-color: black; }
+    header nav ul {
+      list-style: none; }
+      header nav ul li {
+        font-size: 1rem;
+        color: pink; }

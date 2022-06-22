@@ -1,0 +1,26 @@
+//nesting
+
+//import
+@import "utilities/variables";
+
+
+header{
+    color: red;
+    width: 300px;
+    box-shadow: 1px black;
+    h1{
+        color: yellow;
+        font-size: 1rem;
+    }
+    nav{
+        width: 150px;
+        background-color: $colorprincipal;
+        ul{
+            list-style: none;
+            li{
+                font-size: 1rem;
+                color: pink;
+            }
+        }
+    }
+}
